@@ -1,26 +1,9 @@
-# VisWest Industrial Services — Website Prototype v2
+# VisWest Industrial Services — Website Prototype V2 Simple Upload
 
-Static, responsive GitHub Pages prototype for the proposed VisWest Industrial Services business.
+This package is designed for GitHub's web uploader. All required files are in one folder, including `viswest-hero.png`.
 
-## Files
-- `index.html` — site content and structure
-- `styles.css` — branding, layout and responsive design
-- `script.js` — mobile menu and disabled prototype form behaviour
-- `favicon.svg` — VisWest browser icon
-- `.nojekyll` — serves files directly on GitHub Pages
+Upload/replace the files directly in the root of `Roy2180/viswest-industrial`, then commit to `main`.
 
-## Update the live GitHub Pages site
-1. Open the `Roy2180/viswest-industrial` repository.
-2. Choose **Add file → Upload files**.
-3. Upload all files from this folder.
-4. GitHub will recognise the same filenames as updates/replacements.
-5. Commit directly to the `main` branch.
-6. GitHub Pages will rebuild automatically.
+After GitHub Pages redeploys, hard-refresh the live page with Ctrl+F5.
 
-Live site address:
-`https://roy2180.github.io/viswest-industrial/`
-
-## Before commercial launch
-Keep the prototype disclaimer until the company is registered and the statements are accurate. Before collecting worker information, add a privacy notice and a secure form backend.
-
-Do not display customer/client logos without permission.
+Keep the development disclaimer until company registration and commercial launch details are confirmed.

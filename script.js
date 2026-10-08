@@ -15,6 +15,6 @@ const form = document.querySelector('#interest-form');
 const note = document.querySelector('#form-note');
 form?.addEventListener('submit', (event) => {
   event.preventDefault();
-  note.textContent = 'Draft only — submissions are disabled until VisWest is formally established.';
+  note.textContent = 'Draft only — submissions are disabled until VisWest is formally established and a privacy process is in place.';
   note.setAttribute('role', 'status');
 });
