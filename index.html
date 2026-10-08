@@ -5,10 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="description" content="VisWest Industrial Services — proposed Western Australian specialist mechanical labour and industrial workforce business." />
   <meta name="theme-color" content="#08111f" />
-  <meta property="og:title" content="VisWest Industrial Services | Draft" />
+  <meta property="og:title" content="VisWest Industrial Services | Pre-launch" />
   <meta property="og:description" content="Specialist mechanical labour for Western Australian shutdowns, fixed-plant maintenance and industrial projects." />
-  <meta property="og:image" content="viswest-hero.png" />
-  <title>VisWest Industrial Services | Draft</title>
+  <meta property="og:image" content="viswest-hero.webp" />
+  <title>VisWest Industrial Services | Pre-launch</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Oswald:wght@500;600;700&display=swap" rel="stylesheet">
@@ -16,7 +16,7 @@
 </head>
 <body>
   <div class="draft-banner" role="status">
-    <strong>Website prototype:</strong> VisWest Industrial Services is currently in development. Company registration, insurance and commercial services are pending.
+    <strong>Pre-launch website:</strong> VisWest Industrial Services is currently in development. Company registration, insurance and commercial services are pending.
   </div>
 
   <header class="site-header" id="top">
@@ -31,7 +31,7 @@
         <a href="#why">Why VisWest</a>
         <a href="#people">Our People</a>
         <a href="#join">Join VisWest</a>
-        <a href="#clients" class="nav-cta">For Clients</a>
+        <a href="#clients" class="nav-cta">Request Trades</a>
       </nav>
     </div>
   </header>
@@ -48,15 +48,13 @@
             <a class="btn primary" href="#clients">Request Skilled Trades</a>
             <a class="btn ghost" href="#join">Join VisWest</a>
           </div>
-          <div class="hero-tags" aria-label="Focus areas">
-            <span>Mechanical Fitters</span><span>Boilermakers</span><span>Dual Trade</span><span>Shutdown Support</span>
-          </div>
+          <p class="hero-mini">Mechanical Fitters • Boilermakers • Dual Trade • Shutdown Support</p>
         </div>
 
         <aside class="hero-panel" aria-label="Specialist workforce overview">
           <div class="panel-topline"></div>
           <p class="panel-kicker">SPECIALIST WORKFORCE</p>
-          <h2>Trade experience that works on site.</h2>
+          <h2>Experienced trades. Ready for site.</h2>
           <p>VisWest is being developed to supply capable, safety-focused tradespeople to established maintenance, shutdown, fabrication and industrial contractors.</p>
           <ul class="workforce-list">
             <li><span>Mechanical Fitters</span><b>Fixed Plant</b></li>
@@ -139,49 +137,126 @@
     </section>
 
     <section class="section join-section" id="join">
-      <div class="shell join-grid">
-        <div>
+      <div class="shell form-layout">
+        <div class="form-copy">
           <p class="eyebrow dark">FOR TRADES</p>
-          <h2 class="section-title">Interested in becoming part of the VisWest workforce?</h2>
-          <p class="join-copy">We are developing a future network of experienced mechanical and industrial tradespeople. This draft site is not yet accepting applications, but it shows the type of workforce VisWest intends to build.</p>
+          <h2 class="section-title">Join the future VisWest workforce.</h2>
+          <p>We are building a network of experienced mechanical and industrial tradespeople for future WA opportunities. During pre-launch, this form operates in demo mode and does not send personal information anywhere.</p>
           <div class="trade-chips">
             <span>Mechanical Fitters</span><span>Boilermakers</span><span>Welder/Fabricators</span><span>Dual Trade</span><span>Riggers</span><span>Trade Assistants</span>
           </div>
-        </div>
-        <form class="interest-form" id="interest-form">
-          <div class="form-heading">
-            <strong>Future workforce interest</strong>
-            <span>Prototype only</span>
+          <div class="info-box">
+            <strong>What we will look for</strong>
+            <p>Trade qualifications, Australian work rights, relevant tickets, practical experience, safety attitude and reliability.</p>
           </div>
-          <label>Full name<input type="text" name="name" placeholder="Your name" required></label>
-          <label>Trade / role<input type="text" name="trade" placeholder="e.g. Mechanical Fitter" required></label>
-          <label>Email<input type="email" name="email" placeholder="you@example.com" required></label>
-          <label>Experience<select name="experience"><option>Choose experience</option><option>0–2 years</option><option>3–5 years</option><option>6–10 years</option><option>10+ years</option></select></label>
-          <button class="btn primary full" type="submit">Register interest — draft only</button>
-          <p class="form-note" id="form-note">No information is transmitted. This form is intentionally disabled until VisWest is formally established and a privacy process is in place.</p>
+        </div>
+
+        <form class="data-form" id="workforce-form" novalidate>
+          <div class="form-heading">
+            <div><strong>Workforce interest</strong><span>Future opportunities</span></div>
+            <span class="mode-pill">PRE-LAUNCH MODE</span>
+          </div>
+          <div class="form-row two">
+            <label>Full name<input type="text" name="name" autocomplete="name" required></label>
+            <label>Mobile<input type="tel" name="phone" autocomplete="tel" placeholder="04xx xxx xxx" required></label>
+          </div>
+          <label>Email<input type="email" name="email" autocomplete="email" required></label>
+          <div class="form-row two">
+            <label>Primary trade
+              <select name="trade" required>
+                <option value="">Select trade</option>
+                <option>Mechanical Fitter</option><option>Boilermaker / Fabricator</option><option>Welder / Fabricator</option><option>Dual Trade</option><option>Rigger</option><option>Trade Assistant</option><option>Other</option>
+              </select>
+            </label>
+            <label>Trade experience
+              <select name="experience" required>
+                <option value="">Select experience</option><option>0–2 years</option><option>3–5 years</option><option>6–10 years</option><option>10+ years</option>
+              </select>
+            </label>
+          </div>
+          <div class="form-row two">
+            <label>Current location<input type="text" name="location" placeholder="e.g. Perth, WA" required></label>
+            <label>Australian work rights
+              <select name="workRights" required>
+                <option value="">Select status</option><option>Australian citizen</option><option>Permanent resident</option><option>Temporary visa with work rights</option><option>Other / need to discuss</option>
+              </select>
+            </label>
+          </div>
+          <fieldset>
+            <legend>Relevant tickets / licences <small>(select what applies)</small></legend>
+            <div class="check-grid">
+              <label><input type="checkbox" name="tickets" value="Working at Heights"> Working at Heights</label>
+              <label><input type="checkbox" name="tickets" value="Confined Space"> Confined Space</label>
+              <label><input type="checkbox" name="tickets" value="Gas Test Atmospheres"> Gas Test Atmospheres</label>
+              <label><input type="checkbox" name="tickets" value="EWP"> EWP</label>
+              <label><input type="checkbox" name="tickets" value="Forklift"> Forklift</label>
+              <label><input type="checkbox" name="tickets" value="Dogging / Rigging"> Dogging / Rigging</label>
+            </div>
+          </fieldset>
+          <label>Availability / notes<textarea name="notes" rows="4" placeholder="Tell us about availability, shutdown experience or specialist skills."></textarea></label>
+          <label class="file-label">Resume / CV <span>Prototype only — file is not uploaded in pre-launch mode.</span><input type="file" name="resume" accept=".pdf,.doc,.docx"></label>
+          <label class="consent"><input type="checkbox" name="consent" required> <span>I understand this is a pre-launch prototype and agree that, when submissions are enabled, VisWest may use these details to contact me about relevant work opportunities.</span></label>
+          <button class="btn primary full" type="submit">Check My Details</button>
+          <p class="form-note" id="workforce-note" aria-live="polite">Nothing is transmitted while the site is in pre-launch mode.</p>
         </form>
       </div>
     </section>
 
     <section class="section client-section" id="clients">
-      <div class="shell client-grid">
-        <div>
+      <div class="shell form-layout reverse">
+        <div class="form-copy client-copy">
           <p class="eyebrow">FOR CLIENTS</p>
-          <h2 class="section-title light">Need dependable mechanical trades?</h2>
-          <p>VisWest intends to support recruitment, labour-hire, maintenance, fabrication and industrial contractors requiring capable mechanical personnel for shutdowns and ongoing maintenance work.</p>
+          <h2 class="section-title light">Need experienced mechanical trades?</h2>
+          <p>VisWest is being developed to support recruitment, maintenance, fabrication and industrial contractors requiring competent mechanical personnel in Western Australia.</p>
           <div class="client-points">
-            <span>Mechanical labour supply</span>
-            <span>Shutdown support</span>
-            <span>Fixed-plant personnel</span>
-            <span>Small specialist crews</span>
+            <span>Mechanical Fitters</span><span>Boilermakers</span><span>Dual Trade</span><span>Shutdown Support</span>
+          </div>
+          <div class="info-box dark-info">
+            <strong>Pre-launch enquiries</strong>
+            <p>This page currently demonstrates the future enquiry process only. Commercial services will commence after registration, insurance and contracting arrangements are in place.</p>
           </div>
         </div>
-        <div class="contact-card">
-          <div><small>STATUS</small><strong>Business in development</strong></div>
-          <div><small>FOCUS</small><strong>Western Australia</strong></div>
-          <div><small>COMMERCIAL ENQUIRIES</small><strong>Available after registration</strong></div>
-          <div><small>WORKFORCE ENQUIRIES</small><strong>Available after registration</strong></div>
-        </div>
+
+        <form class="data-form dark-form" id="client-form" novalidate>
+          <div class="form-heading">
+            <div><strong>Request skilled trades</strong><span>Future client enquiry</span></div>
+            <span class="mode-pill">PRE-LAUNCH MODE</span>
+          </div>
+          <div class="form-row two">
+            <label>Company<input type="text" name="company" autocomplete="organization" required></label>
+            <label>Contact name<input type="text" name="contactName" autocomplete="name" required></label>
+          </div>
+          <div class="form-row two">
+            <label>Email<input type="email" name="email" autocomplete="email" required></label>
+            <label>Phone<input type="tel" name="phone" autocomplete="tel"></label>
+          </div>
+          <div class="form-row two">
+            <label>Trade required
+              <select name="trade" required>
+                <option value="">Select trade</option><option>Mechanical Fitter</option><option>Boilermaker / Fabricator</option><option>Dual Trade</option><option>Rigger</option><option>Trade Assistant</option><option>Mixed crew</option><option>Other</option>
+              </select>
+            </label>
+            <label>Number of workers<input type="number" name="quantity" min="1" max="100" placeholder="e.g. 5" required></label>
+          </div>
+          <div class="form-row two">
+            <label>Work location<input type="text" name="location" placeholder="e.g. Perth / Pilbara" required></label>
+            <label>Expected start date<input type="date" name="startDate"></label>
+          </div>
+          <label>Duration / roster<input type="text" name="duration" placeholder="e.g. 7-day shutdown, 2:1 roster, 3 months"></label>
+          <label>Scope / requirements<textarea name="requirements" rows="5" placeholder="Tell us about the work, tickets, mobilisation requirements and experience needed."></textarea></label>
+          <label class="consent"><input type="checkbox" name="consent" required> <span>I understand this is currently a pre-launch enquiry form and no commercial commitment is created by submitting details.</span></label>
+          <button class="btn primary full" type="submit">Check Enquiry Details</button>
+          <p class="form-note" id="client-note" aria-live="polite">Nothing is transmitted while the site is in pre-launch mode.</p>
+        </form>
+      </div>
+    </section>
+
+    <section class="section status-section">
+      <div class="shell status-grid">
+        <div><small>STATUS</small><strong>Business in development</strong></div>
+        <div><small>FOCUS</small><strong>Western Australia</strong></div>
+        <div><small>MODEL</small><strong>Specialist labour supply</strong></div>
+        <div><small>LONG-TERM DIRECTION</small><strong>Shared prosperity</strong></div>
       </div>
     </section>
   </main>
@@ -193,10 +268,21 @@
         <span class="brand-copy"><b>VISWEST</b><small>INDUSTRIAL SERVICES</small></span>
       </div>
       <p>Skilled Trades. Reliable Delivery. Shared Success.</p>
-      <p class="legal">Prototype only. VisWest Industrial Services is currently in development and is not represented by this website as an operating labour-hire or contracting business. No employment, labour-hire or contracting services are presently offered through this site.</p>
+      <p class="legal">Pre-launch prototype only. VisWest Industrial Services is currently in development and is not represented by this website as an operating labour-hire or contracting business. No employment, labour-hire or contracting services are presently offered through this site.</p>
     </div>
   </footer>
 
+  <div class="modal" id="demo-modal" hidden>
+    <div class="modal-card" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+      <button class="modal-close" type="button" aria-label="Close">×</button>
+      <p class="eyebrow dark">PRE-LAUNCH MODE</p>
+      <h2 id="modal-title">Your details look ready.</h2>
+      <p id="modal-message">This prototype validated the form, but no personal information was sent or stored.</p>
+      <button class="btn primary full modal-ok" type="button">Got it</button>
+    </div>
+  </div>
+
+  <script src="config.js"></script>
   <script src="script.js"></script>
 </body>
 </html>
