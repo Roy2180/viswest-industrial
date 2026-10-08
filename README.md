@@ -1,53 +1,15 @@
-# VisWest Industrial Services — Website V4
+# VisWest Industrial Services — Website V4.1
 
-This version keeps the V3 working pre-launch forms and layout, with two requested brand/content changes:
+This patch corrects the VisWest logo treatment requested after V4.
 
-- Restores the V2-style yellow-and-white VisWest logo treatment.
-- Replaces “Fair employment” with “People First — Respect, clear communication and opportunities to grow together.”
+## Logo treatment
+- Yellow badge background
+- Black **V**
+- White **W**
+- White **VISWEST** wordmark
+- Yellow **INDUSTRIAL SERVICES** subline
 
-Forms remain in pre-launch/demo mode until a secure form endpoint is configured in `config.js`.
+## Upload to GitHub Pages
+Upload/replace all files in the root of `Roy2180/viswest-industrial`, including the new `viswest-logo.svg`, then commit to `main`.
 
-
-Pre-launch GitHub Pages website for VisWest Industrial Services.
-
-## V3 changes
-- Larger VisWest branding
-- Revised hero wording and stronger client call-to-action
-- Mobile layout improvements
-- Workforce interest form
-- Client skilled-trades request form
-- Privacy/consent wording
-- Pre-launch safe mode: forms validate locally but **do not transmit or store data**
-- Optimised WebP hero image for faster loading
-- `config.js` makes future form activation simple
-
-## Publish to the existing GitHub Pages site
-Upload/replace these files in the root of `Roy2180/viswest-industrial`:
-
-- `index.html`
-- `styles.css`
-- `script.js`
-- `config.js`
-- `viswest-hero.webp`
-- `.nojekyll`
-- `README.md`
-
-Commit to `main`. GitHub Pages will redeploy automatically.
-
-## Important: form mode
-The website is intentionally set to pre-launch demo mode in `config.js`:
-
-```js
-window.VISWEST_CONFIG = {
-  demoMode: true,
-  workforceEndpoint: "",
-  clientEndpoint: ""
-};
-```
-
-No form data leaves the browser in this mode.
-
-When VisWest is registered, has a business email/privacy notice, and you choose a secure form service, paste the relevant endpoints into `config.js` and change `demoMode` to `false`.
-
-## Legal status
-The website clearly states that VisWest Industrial Services is in development and is not yet represented as an operating labour-hire or contracting business.
+After deployment, refresh the live site with `Ctrl + F5`.
