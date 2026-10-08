@@ -1,4 +1,12 @@
-# VisWest Industrial Services — Website V3
+# VisWest Industrial Services — Website V4
+
+This version keeps the V3 working pre-launch forms and layout, with two requested brand/content changes:
+
+- Restores the V2-style yellow-and-white VisWest logo treatment.
+- Replaces “Fair employment” with “People First — Respect, clear communication and opportunities to grow together.”
+
+Forms remain in pre-launch/demo mode until a secure form endpoint is configured in `config.js`.
+
 
 Pre-launch GitHub Pages website for VisWest Industrial Services.
 
