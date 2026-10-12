@@ -1,15 +1,11 @@
-# VisWest Industrial Services — Website V4.1
+# VisWest Industrial Services Pty Ltd — Website V5
 
-This patch corrects the VisWest logo treatment requested after V4.
+Registered-company website update for GitHub Pages.
 
-## Logo treatment
-- Yellow badge background
-- Black **V**
-- White **W**
-- White **VISWEST** wordmark
-- Yellow **INDUSTRIAL SERVICES** subline
+## V5 changes
+- Uses the preferred yellow / black / white VisWest logo
+- Updates status from proposed company to registered company
+- Keeps a clear pre-operational notice while insurance, payroll and client onboarding are finalised
+- Retains worker and client enquiry forms in safe pre-launch mode
 
-## Upload to GitHub Pages
-Upload/replace all files in the root of `Roy2180/viswest-industrial`, including the new `viswest-logo.svg`, then commit to `main`.
-
-After deployment, refresh the live site with `Ctrl + F5`.
+Upload all files in this folder to the root of the `viswest-industrial` GitHub repository and replace existing files.
